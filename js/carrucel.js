@@ -50,3 +50,9 @@ function showAlert() {
 
 // Llamar a la función para mostrar la alerta de "Hola mundo" cuando la página cargue
 window.onload = showAlert;
+
+
+// Alerta de "Hola mundo" al cargar la página
+window.addEventListener('load', function() {
+    alert('¡Hola mundo!');
+  });
