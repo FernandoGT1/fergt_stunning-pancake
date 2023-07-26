@@ -30,20 +30,64 @@
       </header>
   <main>
 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores del carrusel -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Contenido del carrusel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG/auto1.jpg" alt="Imagen 1">
+            <div class="carousel-caption">
+              <h3>Nombre</h3>
+              <p>Fernando Gomez Toledo </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/auto2.jpg" alt="Imagen 2">
+            <div class="carousel-caption">
+              <h3>Estudias</h3>
+              <p>Estudio en la Univercidad UT de CanCun,Actual mente cruso el tercer cuatrimestre de la ingenierria desarrollo de software multiplataforma. Con el grupo SM-32</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/auto3.jpg" alt="Imagen 3">
+            <div class="carousel-caption">
+              <h3>Cuantos Años Tienes </h3>
+              <p> Tengo 20 años y tengo como meta terminar la carrera y ser bueno en lo que me desempeño que es orientado al desarrollo de software </p>
+            </div>
+          </div>
+        </div>
+        
+
+<!-- Botones de control del carrusel -->
+<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>
 
 
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
+<div class="content">
+    <!-- Contenido de la página -->
+  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
+
+
+
+  <!-- Agregar los archivos JavaScript de Bootstrap (jQuery y Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Agregar el archivo JavaScript de Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
